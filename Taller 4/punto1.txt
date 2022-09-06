@@ -1,0 +1,19 @@
+1. Identifique el error en el siguiente código y explique cómo se puede corregir. 
+
+public class Instanciacion {
+
+public Object crearObjeto() { 
+Class clase = this.getClass(); 
+return clase.newInstance(); 
+} 
+public static void main(java.lang.String[] args) {
+Instanciacion creador = new Instanciacion(); 
+try { 
+Object creado = creador.crearObjeto(); 
+System.out.println(creado); 
+} catch (InstantiationException | IllegalAccessException errorCrea){ 
+System.out.println("No se pudo crear el objeto"); 
+}
+ } } 
+
+R/ EL ERROR EN ESTE CÓDIGO CONSISTE EN QUE EL ERROR NO ESTÁ SIENDO CAPTURADO POR LO QUE EL TRY CATCH NO ESTÁ INSTANCIADO.

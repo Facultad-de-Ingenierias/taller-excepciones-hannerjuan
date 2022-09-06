@@ -1,0 +1,10 @@
+2. Usted debe escribir un método que calcula el valor que debe pagar una persona por boletas de cine, lo cual depende de la cantidad de boletas que lleva. Si dentro del método encuentra que la cantidad de boletas no está dentro de los rangos establecidos, ¿debería lanzar una excepción o retornar cero? 
+En caso de lanzar una excepción, ¿sería comprobada o no comprobada? Explique brevemente sus respuestas.
+
+R/ public float calcularValorBoletasCine(int cantidadBoletas){
+	
+}
+
+R/ EL SISTEMA DEBERÍA LANZAR UNA EXCEPCIÓN YA QUE SI LA PERSONA SOLO LE PERMITE COMPRAR 3 BOLETAS Y COMPRA 4 EL SISTEMA DEBERÍA LANZAR UNA EXCEPCIÓN DICIENDO QUE SOLO PUEDE COMPRAR 3 BOLETAS.
+
+R/ COMPROBADO PORQUE SE PUEDE VER LA VARIABLE QUE TIENE LA CANTIDAD DE BOLETAS COMPRADAS Y VALIDAR LA EXCEPCION.

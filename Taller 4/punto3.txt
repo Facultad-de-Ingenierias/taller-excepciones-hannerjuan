@@ -1,0 +1,6 @@
+3. Usted debe escribir un método que consulta las materias que tiene inscritas un estudiante, 
+a partir del código del estudiante. Si el estudiante no tiene materias inscritas, 
+¿debería lanzar una excepción o retornar una lista vacía? En caso de lanzar una excepción, 
+¿sería comprobada o no comprobada? Explique brevemente sus respuestas
+
+R/ DEBERÍA LANZAR UNA EXCEPCIÓN PORQUE NO TODAS LAS PERSONAS SABEN QUE SIGNIFICA UNA LISTA VACÍA
